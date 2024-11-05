@@ -1,0 +1,52 @@
+/* Style de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+}
+
+h1 {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Style pour les cartes */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 18px;
+    color: #34495e;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+/* Styles supplémentaires pour la barre de navigation */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #1abc9c;
+}
+
+.ensemble {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+div.container{
+    margin-left: 300px;
+    
+}

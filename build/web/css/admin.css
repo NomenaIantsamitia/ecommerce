@@ -1,0 +1,77 @@
+/* Réinitialisation des marges et des bordures */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond */
+}
+
+/* Styles de la sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; /* Largeur de la sidebar */
+    height: 100%; /* Hauteur de la sidebar */
+    background-color: #343a40; /* Couleur de fond de la sidebar */
+    padding: 15px;
+    color: white; /* Couleur du texte */
+}
+
+.sidebar h2 {
+    color: #ffffff; /* Couleur du titre */
+}
+
+/* Styles des éléments de la sidebar */
+.sidebar .nav-link {
+    color: #ffffff; /* Couleur des liens */
+    margin-bottom: 10px; /* Espacement entre les liens */
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057; /* Couleur de fond au survol */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+/* Styles pour le contenu principal */
+.main {
+    margin-left: 250px; /* Espace à gauche pour la sidebar */
+    padding: 20px; /* Espacement à l'intérieur du contenu principal */
+}
+
+/* Styles des cartes de statistiques */
+.card {
+    margin-bottom: 20px; /* Espacement entre les cartes */
+}
+
+.card-title {
+    font-size: 1.5em; /* Taille de la police pour le titre */
+}
+
+.card-text {
+    font-size: 2em; /* Taille de la police pour le texte */
+}
+
+/* Styles du graphique */
+#myChart {
+    max-width: 100%; /* S'assure que le graphique ne déborde pas */
+    height: 400px; /* Hauteur du graphique */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%; /* La sidebar occupe 100% sur mobile */
+        height: auto; /* Ajuste la hauteur sur mobile */
+    }
+
+    .main {
+        margin-left: 0; /* Retire l'espace à gauche sur mobile */
+    }
+}
+

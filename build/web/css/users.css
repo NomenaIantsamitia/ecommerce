@@ -1,0 +1,74 @@
+ body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Style de la table et du container */
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+.table-container {
+    max-height: 400px; /* Tu peux ajuster la hauteur comme tu veux */
+    overflow-y: auto
+}
+
+/* Style de la table */
+.table th {
+    background-color: #343a40;
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1; /* S'assurer que l'en-tête reste au-dessus des lignes */
+}
+        h2 {
+            text-align: center;
+            color: #dc3545;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .table td, .table th {
+            text-align: center;
+        }
+
+        /* Style pour le bouton Ajouter et le champ de recherche */
+        #addUserBtn {
+            margin-bottom: 20px;
+        }
+
+        #searchInput {
+            margin-bottom: 20px;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+
+        /* Slider (ou menu latéral) */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 200px;
+            background-color: #343a40;
+            padding: 20px;
+            color: white;
+        }
+
+        .sidebar a {
+            color: white;
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+
+        .content {
+            margin-left: 220px;
+        }

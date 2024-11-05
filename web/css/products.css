@@ -1,0 +1,66 @@
+/* Style global pour les produits */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Conteneur principal avec sidebar et contenu */
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    padding: 20px;
+    background-color: white;
+}
+
+/* Table avec défilement */
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Style pour le bouton d'ajout */
+#addProductBtn {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+/* Modals */
+.modal-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.modal-footer .btn {
+    min-width: 100px;
+}
